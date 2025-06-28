@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<nav>
+  <ul>
+    <li><a href="#about">Tentang</a></li>
+    <li><a href="#projects">Proyek</a></li>
+    <li><a href="#contact">Kontak</a></li>
+  </ul>
+</nav>
+
+<html lang="id">
+  <head>
+    <!-- AOS Library -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio Teguh</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="fade-in">
+      <h1>Teguh Lamongga</h1>
+      <p>🚀</p>
+    </header>
+
+    <header class="fade-in">
+      <h1>Teguh Lamongga</h1>
+      <p>🚀</p>
+    </header>
+
+    <section class="about fade-in">...</section>
+
+    <section class="projects fade-in">...</section>
+
+    <section class="contact fade-in">...</section>
+
+    <section class="about">
+
+      <section id="about" data-aos="fade-up">
+  ...
+</section>
+
+<section id="projects" data-aos="zoom-in" data-aos-delay="200">
+  ...
+</section>
+
+<section id="contact" data-aos="fade-right" data-aos-delay="400">
+  ...
+</section>
+
+<section class="fade-in fade-delay-1">...</section>
+<section class="fade-in fade-delay-2">...</section>
+<section class="fade-in fade-delay-3">...</section>
+
+
+      <h2>Tentang Saya</h2>
+      <p>
+        Saya sedang belajar menjadi web developer dari nol. Ini adalah website
+        portofolio pertama saya sebagai bagian dari perjalanan saya ke dunia
+        web!
+      </p>
+      <section class="cv-download">
+        <h2>Unduh CV Saya</h2>
+        <a href="cv-teguh.pdf" download class="btn">Download CV</a>
+      </section>
+    </section>
+
+    <section class="projects">
+      <h2>Proyek Saya</h2>
+
+      <div class="project">
+        <h3>Website Profil</h3>
+        <p>
+          Website sederhana berisi biodata, hobi, dan kontak saya. Dibuat
+          menggunakan HTML & CSS dasar.
+        </p>
+      </div>
+
+      <div class="project">
+        <h3>Aplikasi Kalkulator</h3>
+        <p>Membuat kalkulator interaktif dengan JavaScript dasar.</p>
+      </div>
+    </section>
+
+    <section class="contact fade-in">
+      <h2>Hubungi Saya</h2>
+      <form action="https://formspree.io/f/xldnappn" method="POST" class="contact-form">
+  <input type="text" name="name" placeholder="Nama Anda" required>
+  <input type="email" name="email" placeholder="Email Anda" required>
+  <textarea name="message" rows="5" placeholder="Pesan Anda" required></textarea>
+  <button type="submit">Kirim Pesan</button>
+</form>
+        <textarea
+          name="message"
+          rows="5"
+          placeholder="Pesan Anda"
+          required
+        ></textarea>
+        <button type="submit">Kirim Pesan</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>© 2025 Teguh Lamongga</p>
+    </footer>
+    <footer>
+      <p>&copy; 2025 Teguh Lamongga. All rights reserved.</p>
+    </footer>
+    <!-- Script AOS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+<!-- Script Efek Form Kirim -->
+<script>
+  const form = document.querySelector(".contact-form");
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    form.innerHTML = "<p>✅ Terima kasih! Pesan kamu sudah dikirim.</p>";
+  });
+</script>
+</body>
+</html>
+
+  </body>
+  <script>
+  const form = document.querySelector(".contact-form");
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    form.innerHTML = "<p>✅ Terima kasih! Pesan kamu sudah dikirim.</p>";
+  });
+</script>
+
+</html>
